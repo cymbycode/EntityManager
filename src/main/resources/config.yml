@@ -1,0 +1,7 @@
+use-whitelist: true
+cleanup-interval: 300
+debug: false
+
+per-world:
+  - world
+  - world_nether

@@ -1,0 +1,16 @@
+name: EntityManager
+author: FemBoysAreCut3
+version: '${project.version}'
+main: femboys.are.cute.EntityManager
+commands:
+  entitymanager:
+    description: Main command for EntityManager
+    permission: entitymanager.admin
+    usage: /entitymanager [reload]
+permissions:
+  entitymanager.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  entitymanager.admin:
+    description: Gives access to all plugin commands
+    default: op
